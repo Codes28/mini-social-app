@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import PostForm from './components/PostForm'
 import PostList from './components/PostList'
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:4000'
+//const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:4000'
+const API_BASE = 'https://mini-social-app-5qk9.onrender.com';
 
 export default function App() {
   const [posts, setPosts] = useState([])
